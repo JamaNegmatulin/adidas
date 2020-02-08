@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(../images/header.jpg);
+    height: 1080px;
+    /* max-width: 1200px; */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header .container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding-top: 21px;
+}
+
+nav ul li a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #1b191e;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #2b6ccd;
+}
+
+.container1 {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.h2 {
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2b6ccd;
+}
+
+main .container .item {
+    margin-right: 22px;
+    margin-bottom: -35px;
+}
+
+main .container .item .text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 203px;
+}
+
+main .container .item .one h3 {
+    padding-left: 26px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    color: #2b6ccd;
+}
+
+.one {
+    position: relative;
+    bottom: 80px;
+}
+
+.left {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+.right {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+.con-border {
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main .con-border .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main .con-border .container .left {
+    width: 443px;
+}
+
+main .con-border .container .left h3 {
+    font-family: 'DaysOne';
+    font-weight: normal;
+    font-size: 30px;
+    color: #2b6ccd;
+}
+
+main .con-border .container .left p {
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+    font-size: 18px;
+    color: #676767;
+    line-height: 27px;
+    padding-top: 40px;
+}
+
+.best {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 1110px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2c6bcd;
+}
+
+.container-adidas {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container-adidas .right {
+    width: 444px;
+    margin-left: 30px;
+}
+
+main .container-adidas .right h3 {
+    padding-bottom: 56px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2c6bcd;
+}
+
+main .container-adidas .right .text-adidas {
+    padding-bottom: 86px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    color: #484848;
+    line-height: 24px;
+}
+
+main .container-adidas .right p a {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #2b6ccd;
+    padding: 17px 59px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 16px;
+    color: #2b6ccd;
+}
+
+.background {
+    background: #f8f8f8;
+    margin-top: 100px;
+}
+
+.container-form {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form {
+    max-width: 352px;
+    width: 100%;
+}
+
+.phones {
+    max-width: 373px;
+    width: 100%;
+    margin-left: 219px;
+}
+
+.phones h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2b6ccd;
+    padding-bottom: 59px;
+}
+
+.phones .text-item .span {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #484848;
+    margin-bottom: 34px;
+}
+
+.phones .text-item span {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    color: #484848;
+}
+
+main .background .container-form .phones .text-item {
+    padding-bottom: 33px;
+}
+
+main .background .container-form .phones .text-item a {
+    color: #484848;
+    text-decoration: none;
+}
+
+input {
+    margin-bottom: 28px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #484848;
+    background: none;
+    width: 351px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    background: none;
+}
+
+.form h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2b6ccd;
+    margin-bottom: 44px;
+}
+
+button {
+    width: 350px;
+    padding: 13px 135px;
+    background: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.con-footer {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+footer h2 {
+    width: 1110px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #232323;
+}
+
+footer h2 span a {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 16px;
+    color: #232323;
+    text-decoration: none;
+}
+
+footer h2 span a:hover {
+    color: #2b6ccd;
+    cursor: pointer;
+}
+
+footer .con-footer .footer-item ul {
+    list-style: none;
+}
+
+footer .con-footer .footer-item ul li a {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    color: #222222;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+footer .con-footer .footer-item ul li a:hover {
+    color: #2b6ccd;
+}
+
+@media(max-width:1110px) {
+    .h2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container1 {
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+        width: 60%;
+    }
+
+    .containergirl {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containergirl .left {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .best {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container-adidas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-left: 50px; */
+    }
+
+    .phones {
+        margin: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .con-footer {
+        display: flex;
+        flex-direction: column;
+        /* width: 60%; */
+
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        /* width: 50%; */
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .footer-item ul {
+        display: block;
+
+    }
+
+    /* .form{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    } */
+}
+
+@media(max-width:950px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .con_logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:790px){
+    .con_logo ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .con_logo ul li a{
+        margin: 0;
+        padding-bottom: 10px;
+    }
+}
